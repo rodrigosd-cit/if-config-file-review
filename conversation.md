@@ -86,9 +86,10 @@ Data Preparation: Parsing all files to extract the selected features and prepari
 Clustering Analysis: Running clustering algorithms to identify groups of configurations with similar characteristics.
 Given the variety of potential features to consider, we'll start by running a few scenarios focusing on different feature sets. These scenarios could include:
 
-Scenario 1: Based on availability features (Online Ordering, Loyalty Program, Drive-Thru).
-Scenario 2: Based on operational settings (Currency, Timezone, Language).
-Scenario 3: A combination of availability and operational settings.
+* Scenario 1: Based on availability features (Online Ordering, Loyalty Program, Drive-Thru).
+* Scenario 2: Based on operational settings (Currency, Timezone, Language).
+* Scenario 3: A combination of availability and operational settings.
+
 This approach will help us identify which features contribute most significantly to similarities among the configurations, guiding the standardization process.
 
 Let's start by preparing the data for Scenario 1, focusing on the availability features. We'll parse all files to extract onlineOrdering, loyaltyProgramEnabled, and driveThruAvailable attributes.
